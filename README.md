@@ -1,11 +1,11 @@
 # Fire-Prediction-in-Victorian-cities
 ## Background
-#
+
 StopFire is a campaign started by Monash University to predict and stop the fire in
 Victorian cities. They have employed sensors in different cities of Victoria and have collected a large amount of data. The data is so big that their techniques have failed to provide the results on time to predict fire. They have hired us as the data analyst to migrate their data to the NoSQL database (MongoDB). They want us to analyze their data and provide them with results. In addition, they want us to build an application, a complete setup from streaming to storing and analyzing the data for them using Apache Kafka, Apache Spark Streaming, and MongoDB.
 
 ## Provided Dataset
-#
+
 - hotspot_historic.csv
 - climate_historic.csv
 - hotspot_AQUA_streaming.csv
@@ -13,7 +13,7 @@ Victorian cities. They have employed sensors in different cities of Victoria and
 - climate_streaming.csv
 
 ## Information on Dataset
-#
+
 Climate data is recorded on a daily basis whereas Fire data is recorded based on the
 occurrence of a fire on a particular day. Therefore, for one climate data, there can be zero or many fire data. All climate data is an average value for the particular day except for max wind speed.
 
@@ -38,7 +38,7 @@ Note: Many stations do not report '0' on days with no precipitation --therefore,
 - I = Station did not report any precipitation data for the day and did not report any occurrences of precipitation in its hourly observations --it's still possible that precipitation occurred but was not reported.
 
 ## File Description
-#
+
 ### 1. MongoDB_with_pymongo.ipynb
 This file consists of reading data from CSV files, building a model, saving to MongoDB and running various queries against the database.
 
