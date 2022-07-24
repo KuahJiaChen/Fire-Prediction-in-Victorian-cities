@@ -46,7 +46,7 @@ This file consists of reading data from CSV files, building a model, saving to M
 This file consists of a python program that loads all the data from climate_streaming.csv and randomly (with replacement) feeds the data to the stream every 10 seconds. 
 
 ### 3. Producer2.ipynb
-This file consists of a python program that loads all the data from hotspot_AQUA_streaming.csv and randomly (with replacement) feeds the data to the stream every 2 seconds. AQUA is the satellite from NASA that reports the latitude, longitude, confidence, and surface temperature of a location
+This file consists of a python program that loads all the data from hotspot_AQUA_streaming.csv and randomly (with replacement) feeds the data to the stream every 2 seconds. AQUA is the satellite from NASA that reports the latitude, longitude, confidence, and surface temperature of a location.
 
 ### 4. Producer3.ipynb
 This file consists of a python program that loads all the data from hotspot_TERRA_streaming.csv and randomly (with replacement) feeds the data to the stream every 2 seconds. TERRA is another satellite from NASA that reports the latitude, longitude, confidence, and surface temperature of a location.
