@@ -1,5 +1,7 @@
 # Fire Prediction in Victorian Cities
 
+Author: Kuah Jia Chen
+
 ## Background
 The StopFire campaign initiated by Monash University aims to predict and prevent fires in Victorian cities. They have deployed sensors in various cities of Victoria, collecting a large volume of data. However, due to the data's size, their existing techniques have failed to provide timely fire predictions. As data analysts, we have been hired to migrate their data to a NoSQL database (MongoDB) and analyze it. Additionally, we are tasked with developing an application using Apache Kafka, Apache Spark Streaming, and MongoDB to facilitate data streaming, storage, and analysis.
 
